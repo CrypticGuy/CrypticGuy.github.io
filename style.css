@@ -33,6 +33,17 @@ h1 {
   justify-content: center;
 }
 
+.containers {
+  width: 100%;
+  padding: 1rem;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #myContainer {
   height: 100%;
   z-index: -1;
@@ -113,9 +124,68 @@ h1 {
 
 p {
   height: 100%;
-  font-size: 1.2rem;
-  width: 70%;
+  font-size: 1.5rem;
+  width: 60%;
+  padding: 1rem;
   color: black;
   text-align: justify;
   font-family: sans-serif;
+}
+
+.whiteText {
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.blackText {
+  color: black;
+  text-align: center;
+}
+
+.greyText {
+  color: #808080 !important;
+}
+
+.progressBarHolder {
+  height: 20px;
+  width: 70%;
+  background-color: #ddd;
+}
+
+.progressBar {
+  height: 20px;
+  width: 40%;
+  background-color: red;
+}
+
+.alignCenter {
+  text-align: center !important;
+  padding: 0.5rem;
+}
+
+.text-size-2 {
+  font-size: 1.5rem;
+}
+
+.size100 {
+  width: 100%;
+}
+
+.alignRight {
+  float: right;
+}
+
+.vertCenter {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  background-color: #009933;
+  margin-top: 2rem;
+  font-weight: bold;
 }
