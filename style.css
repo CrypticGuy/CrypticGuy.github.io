@@ -1,0 +1,121 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+html { font-size: 80%; } 
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.interactive {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#myContainer {
+  height: 100%;
+  z-index: -1;
+}
+
+.coverHolder {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.coverText {
+  width: 100%;
+  padding: 5%;
+  background:  rgba(0,0,0,0.2);
+  font-family: monospace;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: black; 
+  border: 0.1rem blue solid;
+  color: white; 
+}
+
+.button1:hover {
+  background-color: blue;
+  border: 0.1rem white solid;
+  color: white;
+}
+
+.webpage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contentHolder {
+  background-color: blue;
+  height: auto;
+  width: 100%;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+}
+
+.header h1 {
+  padding-left: 1rem;
+}
+
+.content-text {
+  background-color: antiquewhite;
+  height: auto;
+  display: inline-flex;
+  background-color: white;
+  justify-content: center;
+}
+
+p {
+  height: 100%;
+  font-size: 1.2rem;
+  width: 70%;
+  color: black;
+  text-align: justify;
+  font-family: sans-serif;
+}
